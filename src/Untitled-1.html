@@ -1,0 +1,483 @@
+
+function App() {
+  return (
+    <div className="app">
+
+      {/* NAVBAR */}
+      <header className="navbar">
+        <div className="logo">
+          DIDIM <span>DECORATION</span>
+        </div>
+
+        <nav>
+          <a href="#home">Ana Sayfa</a>
+          <a href="#services">Hizmetler</a>
+          <a href="#portfolio">Projeler</a>
+          <a href="#about">Hakkımızda</a>
+          <a href="#contact">İletişim</a>
+        </nav>
+
+        <a href="#contact" className="contact-button">
+          Teklif Al
+        </a>
+      </header>
+
+      {/* HERO */}
+      <section id="home" className="hero">
+
+        <div className="hero-text">
+          <p className="subtitle">DIDIM DECORATION</p>
+
+          <h1>
+            Hayallerinizi
+            <br />
+            <span>unutulmaz</span>
+            <br />
+            mekanlara dönüştürüyoruz.
+          </h1>
+
+          <p className="description">
+            Özel günleriniz ve yaşam alanlarınız için
+            modern, yaratıcı ve size özel dekorasyon
+            çözümleri.
+          </p>
+
+          <div className="hero-buttons">
+            <a href="#portfolio" className="main-button">
+              Projelerimizi Keşfet →
+            </a>
+
+            <a href="#contact" className="second-button">
+              İletişime Geç
+            </a>
+          </div>
+        </div>
+
+        <div className="hero-visual">
+          <div className="orange-circle"></div>
+          <div className="yellow-circle"></div>
+
+          <div className="decoration-card">
+            <div className="card-image">
+              ✦
+            </div>
+
+            <p>CREATE · DECORATE · INSPIRE</p>
+          </div>
+        </div>
+
+      </section>
+
+
+      {/* SERVICES */}
+      <section id="services" className="services-section">
+
+        <div className="section-title">
+          <p>HİZMETLERİMİZ</p>
+          <h2>
+            Hayalinizi <span>tasarlıyoruz.</span>
+          </h2>
+        </div>
+
+        <div className="services">
+
+          <div className="service-card">
+            <span className="number">01</span>
+
+            <div className="service-icon">
+              💍
+            </div>
+
+            <h3>Düğün Dekorasyonu</h3>
+
+            <p>
+              En özel gününüz için romantik,
+              şık ve size özel dekorasyonlar.
+            </p>
+
+            <a href="#contact">
+              Detaylı Bilgi →
+            </a>
+          </div>
+
+
+          <div className="service-card featured">
+            <span className="number">02</span>
+
+            <div className="service-icon">
+              🎉
+            </div>
+
+            <h3>Etkinlik Dekorasyonu</h3>
+
+            <p>
+              Davet, parti ve özel etkinliklerinizi
+              unutulmaz mekanlara dönüştürüyoruz.
+            </p>
+
+            <a href="#contact">
+              Detaylı Bilgi →
+            </a>
+          </div>
+
+
+          <div className="service-card">
+            <span className="number">03</span>
+
+            <div className="service-icon">
+              🏠
+            </div>
+
+            <h3>Mekan Tasarımı</h3>
+
+            <p>
+              Modern ve yaratıcı tasarımlarla
+              yaşam alanlarınıza yeni bir karakter.
+            </p>
+
+            <a href="#contact">
+              Detaylı Bilgi →
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* PORTFOLIO */}
+      <section id="portfolio" className="portfolio-section">
+
+        <div className="section-title dark">
+          <p>ÇALIŞMALARIMIZ</p>
+
+          <h2>
+            Son <span>Projelerimiz</span>
+          </h2>
+        </div>
+
+        <div className="portfolio-grid">
+
+          <div className="portfolio-item portfolio-one">
+            <div>
+              <small>WEDDING</small>
+              <h3>Romantic Wedding</h3>
+            </div>
+          </div>
+
+          <div className="portfolio-item portfolio-two">
+            <div>
+              <small>EVENT</small>
+              <h3>Elegant Celebration</h3>
+            </div>
+          </div>
+
+          <div className="portfolio-item portfolio-three">
+            <div>
+              <small>DECORATION</small>
+              <h3>Modern Concept</h3>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* ABOUT */}
+      <section id="about" className="about-section">
+
+        <div className="about-image">
+          <div className="about-letter">
+            D
+          </div>
+        </div>
+
+        <div className="about-text">
+
+          <p className="subtitle">
+            BİZ KİMİZ?
+          </p>
+
+          <h2>
+            Her detayda
+            <br />
+            <span>bir hikaye</span> var.
+          </h2>
+
+          <p>
+            Didim Decoration olarak sadece mekanları
+            dekore etmiyor, insanların hatırlayacağı
+            özel anlar tasarlıyoruz.
+          </p>
+
+          <p>
+            Yaratıcılık, kaliteli malzeme ve modern
+            tasarımı bir araya getirerek her projeye
+            özel çözümler sunuyoruz.
+          </p>
+
+          <a href="#contact" className="main-button">
+            Bizi Tanıyın →
+          </a>
+
+        </div>
+
+      </section>
+
+
+      {/* CONTACT */}
+      <section id="contact" className="contact-section">
+
+        <div className="contact-text">
+
+          <p className="subtitle">
+            BİZİMLE ÇALIŞIN
+          </p>
+
+          <h2>
+            Hayalinizdeki
+            <br />
+            <span>dekorasyonu</span>
+            <br />
+            konuşalım.
+          </h2>
+
+          <p>
+            Projenizi bize anlatın.
+            Size en uygun dekorasyon konseptini
+            birlikte oluşturalım.
+          </p>
+
+        </div>
+
+
+        <form className="contact-form">
+
+          <input
+            type="text"
+            placeholder="Adınız Soyadınız"
+          />
+
+          <input
+            type="tel"
+            placeholder="Telefon Numaranız"
+          />
+
+          <input
+            type="email"
+            placeholder="E-posta Adresiniz"
+          />
+
+          <select defaultValue="">
+            <option value="" disabled>
+              Hizmet seçiniz
+            </option>
+
+            <option>
+              Düğün Dekorasyonu
+            </option>
+
+            <option>
+              Etkinlik Dekorasyonu
+            </option>
+
+            <option>
+              Mekan Tasarımı
+            </option>
+          </select>
+
+          <textarea
+            rows="5"
+            placeholder="Projeniz hakkında bilgi verin..."
+          ></textarea>
+
+          <button type="submit">
+            Teklif İste →
+          </button>
+
+        </form>
+
+      </section>
+
+
+      {/* FOOTER */}
+      <footer>
+
+        <div className="logo">
+          DIDIM <span>DECORATION</span>
+        </div>
+
+        <p>
+          © 2026 Didim Decoration
+        </p>
+
+        <div className="socials">
+          <a href="#">Instagram</a>
+          <a href="#">WhatsApp</a>
+        </div>
+
+      </footer>
+
+    </div>
+  );
+}
+
+export default App;
+/* =================================
+   DIDIM DECORATION COLOR FIX
+   WHITE + BLUE + YELLOW
+================================= */
+
+body {
+  background: #ffffff !important;
+}
+
+.app {
+  background: #ffffff !important;
+}
+
+/* HEADER */
+.navbar {
+  background: #42bde8 !important;
+}
+
+/* LOGO */
+.logo {
+  color: #ffffff !important;
+}
+
+.logo span {
+  color: #ffe000 !important;
+}
+
+/* MENU */
+.navbar nav a {
+  color: #ffffff !important;
+}
+
+.navbar nav a:hover {
+  color: #ffe000 !important;
+}
+
+/* TOP BUTTON */
+.contact-button {
+  background: #ffe000 !important;
+  color: #222222 !important;
+}
+
+/* HERO */
+.hero {
+  background: #ffffff !important;
+}
+
+.hero h1 {
+  color: #222222 !important;
+}
+
+.hero h1 span {
+  color: #42bde8 !important;
+}
+
+.subtitle {
+  color: #42bde8 !important;
+}
+
+/* HERO CIRCLES */
+.orange-circle {
+  background: #ffe000 !important;
+}
+
+.yellow-circle {
+  background: #42bde8 !important;
+}
+
+/* HERO CARD */
+.card-image {
+  background: #42bde8 !important;
+}
+
+.decoration-card {
+  background: #ffffff !important;
+}
+
+/* BUTTONS */
+.main-button {
+  background: #ffe000 !important;
+  color: #222222 !important;
+}
+
+.second-button {
+  border-color: #42bde8 !important;
+}
+
+.second-button:hover {
+  background: #42bde8 !important;
+  color: #ffffff !important;
+}
+
+/* SERVICES */
+.services-section {
+  background: #ffffff !important;
+}
+
+.service-card {
+  background: #ffffff !important;
+  border-color: #ffe000 !important;
+}
+
+.service-card.featured {
+  background: #42bde8 !important;
+  border-color: #42bde8 !important;
+}
+
+.service-card a {
+  color: #42bde8 !important;
+}
+
+.service-card.featured a {
+  color: #ffe000 !important;
+}
+
+/* PORTFOLIO */
+.portfolio-section {
+  background: #ffffff !important;
+}
+
+.portfolio-one {
+  background: #42bde8 !important;
+}
+
+.portfolio-two {
+  background: #ffe000 !important;
+}
+
+.portfolio-three {
+  background: #42bde8 !important;
+}
+
+/* ABOUT */
+.about-section {
+  background: #ffffff !important;
+}
+
+.about-image {
+  background: #ffe000 !important;
+}
+
+.about-letter {
+  background: #42bde8 !important;
+}
+
+/* CONTACT */
+.contact-section {
+  background: #42bde8 !important;
+}
+
+.contact-form button {
+  background: #ffe000 !important;
+}
+
+/* FOOTER */
+footer {
+  background: #222222 !important;
+}
